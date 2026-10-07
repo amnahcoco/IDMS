@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: gbb-idms-temp
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: IDMS_EMAIL
+        sync: false
+      - key: IDMS_PASSWORD
+        sync: false

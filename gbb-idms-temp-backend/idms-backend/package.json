@@ -1,0 +1,9 @@
+{
+  "name": "gbb-idms-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GBB Physical Security ID Card Management System temporary backend",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" }
+}
